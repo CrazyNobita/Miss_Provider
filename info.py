@@ -53,7 +53,7 @@ reqst_channel = environ.get('REQST_CHANNEL_ID', '-1003020882379'))  # Request ch
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/MissProviderChat')  # Support group link (make sure bot is admin)
 
 # FORCE_SUB 
-auth_req_channels = environ.get("AUTH_REQ_CHANNELS", "-1003016384538")# requst to join Channel for force sub (make sure bot is admin) only for bot ADMINS  
+auth_req_channels = environ.get("AUTH_REQ_CHANNELS", "-1003007631373")# requst to join Channel for force sub (make sure bot is admin) only for bot ADMINS  
 auth_channels     = environ.get("AUTH_CHANNELS", "-1003016384538")# Channels for force sub (make sure bot is admin)
 
 # ============================
