@@ -216,7 +216,8 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/MissProbiderBot">{file_name}</a></b>\n\n<blockquote>⚜️ Powered By : <a href="https://t.me/MissProviderRequest">Request Group</a></b>"""
+    CAPTION = """<blockquote><a href="https://t.me/MissProviderBot">{file_name}</a></b>\n\n<blockquote>```
+|| ᴅᴏᴡɴʟᴏᴀᴅ ᴀᴜᴅɪᴏ ɪssᴜᴇ ᴄʟᴇᴀʀ ᴀᴘᴘ ||ᴀɪ sᴜɢɢᴇsᴛᴇᴅ ᴍᴏᴠɪᴇs || ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍɪss ᴘʀᴏᴠɪᴅᴇʀ ɢʀᴘ || ``` : <a href="https://t.me/MissProviderRequest">Request Group</a></b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
