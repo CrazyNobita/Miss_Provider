@@ -216,8 +216,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<blockquote><a href="https://t.me/MissProviderBot">{file_name}</a></b>\n\n<blockquote>
-    <blockquote><a href="https://reel2earn.com/DownladAudioClearenceApp">|| ᴅᴏᴡɴʟᴏᴀᴅ ᴀᴜᴅɪᴏ ɪssᴜᴇ ᴄʟᴇᴀʀ ᴀᴘᴘ ||</a></b>"""<a href="https://t.me/MissProviderUpdate">|| ᴀɪ sᴜɢɢᴇsᴛᴇᴅ ᴍᴏᴠɪᴇs ||</a></b>"""<a href="https://t.me/MissProviderRequest">|| ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍɪss ᴘʀᴏᴠɪᴅᴇʀ ɢʀᴘ ||</a></blockquote>"""
+    CAPTION = """<blockquote><a href="https://t.me/MissProviderBot">{file_name}</a></b>\n\n<blockquote><blockquote><a href="https://reel2earn.com/DownladAudioClearenceApp">|| ᴅᴏᴡɴʟᴏᴀᴅ ᴀᴜᴅɪᴏ ɪssᴜᴇ ᴄʟᴇᴀʀ ᴀᴘᴘ ||</a></b>"""<a href="https://t.me/MissProviderUpdate">|| ᴀɪ sᴜɢɢᴇsᴛᴇᴅ ᴍᴏᴠɪᴇs ||</a></b>"""<a href="https://t.me/MissProviderRequest">|| ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍɪss ᴘʀᴏᴠɪᴅᴇʀ ɢʀᴘ ||</a></blockquote>"""
     
     MOVIE_UPDATE_NOTIFY_TXT = """
 </b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
