@@ -216,9 +216,8 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<blockquote><a href="https://t.me/MissProviderBot">{file_name}</a></b>\n\n<blockquote>```
-|| ᴅᴏᴡɴʟᴏᴀᴅ ᴀᴜᴅɪᴏ ɪssᴜᴇ ᴄʟᴇᴀʀ ᴀᴘᴘ ||ᴀɪ sᴜɢɢᴇsᴛᴇᴅ ᴍᴏᴠɪᴇs || ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍɪss ᴘʀᴏᴠɪᴅᴇʀ ɢʀᴘ || ``` : <a href="https://t.me/MissProviderRequest">Request Group</a></b>"""
-
+    CAPTION = """<blockquote><a href="https://t.me/MissProviderBot">{file_name}</a></b>\n\n<blockquote>
+    <blockquote><a href="https://reel2earn.com/DownladAudioClearenceApp">|| ᴅᴏᴡɴʟᴏᴀᴅ ᴀᴜᴅɪᴏ ɪssᴜᴇ ᴄʟᴇᴀʀ ᴀᴘᴘ ||</a></b>"""<a href="https://t.me/MissProviderUpdate">|| ᴀɪ sᴜɢɢᴇsᴛᴇᴅ ᴍᴏᴠɪᴇs ||</a></b>"""<a href="https://t.me/MissProviderRequest">|| ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍɪss ᴘʀᴏᴠɪᴅᴇʀ ɢʀᴘ ||</a></blockquote>"""
     
     MOVIE_UPDATE_NOTIFY_TXT = """
 </b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
@@ -275,7 +274,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 ◉ 60 ᴅᴀʏꜱ - 75 ₹  / 75 ꜱᴛᴀʀ
 
 •─────•─────────•─────•
-🏷️ <a href='https://t.me/dreamxbotz'>ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʀᴏᴏꜰ</a>
+🏷️ <a href='https://t.me/Miss_Provider'>ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʀᴏᴏꜰ</a>
 
 ‼️ ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
 ‼️ ᴀꜰᴛᴇʀ ꜱᴇɴᴅɪɴɢ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇꜱ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ."""
@@ -284,7 +283,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
 ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ꜱᴇʀᴠɪᴄᴇ ᴜꜱɪɴɢ ᴛᴇʟᴇɢʀᴀᴍ ꜱᴛᴀʀꜱ.  
 
-ɪꜰ ʏᴏᴜ ꜰᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ, ᴛᴀᴋᴇ ᴀ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀɴᴅ ꜱᴇɴᴅ ɪᴛ ᴛᴏ - @deendayal_Support_group
+ɪꜰ ʏᴏᴜ ꜰᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ, ᴛᴀᴋᴇ ᴀ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀɴᴅ ꜱᴇɴᴅ ɪᴛ ᴛᴏ - @MissProviderChat
 
 ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴅᴇꜱɪʀᴇᴅ ᴀᴍᴏᴜɴᴛ ᴀɴᴅ ᴘᴜʀᴄʜᴀꜱᴇ ᴀ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 👇.</b>
 """
