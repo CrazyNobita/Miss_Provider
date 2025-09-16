@@ -238,7 +238,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 """
 
 
-   IMDB_TEMPLATE_TXT = """
+    IMDB_TEMPLATE_TXT = """
 <b>🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
