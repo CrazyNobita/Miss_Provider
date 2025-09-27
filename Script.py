@@ -115,9 +115,9 @@ Aᴅᴅᴇᴅ Bʏ - {}
 Iᴅ - <code>{}</code>
 Nᴀᴍᴇ - {}
 """
-    NT_ADMIN_ALRT_TXT = """‼️ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴅᴍɪɴ ɪɴ ᴛʜɪꜱ ɢʀᴏᴜᴘ ‼️"""
+    NT_ADMIN_ALRT_TXT = """📌 ʙʀᴏ ʏᴏᴜ ᴀʀᴇ ᴊᴜsᴛ ᴀɴ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇsᴛ ᴜsᴇʀ . ʏᴏᴜ ʜᴀᴠᴇ ɴᴏ ᴘᴇʀᴍɪssɪᴏɴ ᴛᴏ ᴅᴏ ᴛʜɪs ⚔"""
 
-    NT_ALRT_TXT = """Not Yours!"""
+    NT_ALRT_TXT = """🥲 ᴛʜɪs ɪs ɴᴏᴛ ʏᴏᴜʀs !"""
     
     ALRT_TXT = """ʜᴇʟʟᴏ {},
 ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ,
@@ -229,7 +229,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 🎞️ ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
 🎧 ᴀᴜᴅɪᴏ    : <b>{language}</b>
 ✨ʀᴀᴛɪɴɢ   : <b>{rating}</b>
-📂ᴇᴘɪsᴏᴅᴇs  : <b>{episodes}</b>
+<b>{episodes}</b>
 </blockquote>
 
 
@@ -389,7 +389,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     SOURCE_TXT ="""<b>ՏOᑌᖇᑕᗴ ᑕOᗪᗴ : 👇 </b>
 
 This Is An Open-Source Project. You Can Use It Freely, But Selling The Source Code Is Strictly Prohibited.\n
-ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://github.com/>None</a>\n """
+ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʜᴇʀᴇ ◉› :<a href=https://telegram.dog/NobitaBhaskar>˹ 𝚴 𝐎 𝐁 𝚰 𝐓 𝚲 ˼</a>\n """
 
     SETTING_TXT = """    
 <u>ꜱᴇᴛᴛɪɴɢꜱ</u> :
