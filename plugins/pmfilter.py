@@ -1857,7 +1857,7 @@ async def auto_filter(client, msg, spoll=False):
         if len(message.text) < 100:
             search = message.text
             search = search.lower()
-            m = await message.reply_text(f'**🔎 Chat GPT 🤖 Ai Is Searching** `{search}`', reply_to_message_id=message.id)
+            m = await message.reply_sticker("CAACAgUAAxkBAAEPebRo25dj1hloGjrwrXQLHimajCwqZgAC5RgAAjMG4FZ-bCIQXdqm_DYE")
             find = search.split(" ")
             search = ""
             removes = ["in", "upload", "series", "full",
