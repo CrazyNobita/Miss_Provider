@@ -1457,21 +1457,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
             fileName = {quote_plus(get_name(log_msg))}
             dreamx_stream = f"{URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
             dreamx_download = f"{URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
-            xo = await query.message.reply_text(f'💘')
+            xo = await query.message.reply_text(f'👨‍💻')
             await asyncio.sleep(1)
             await xo.delete()
             await log_msg.reply_text(
                 text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n•• ᴜꜱᴇʀɴᴀᴍᴇ : {username} \n\n•• ᖴᎥᒪᗴ Nᗩᗰᗴ : {fileName}",
                 quote=True,
                 disable_web_page_preview=True,
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🚀 Fast Download 🚀", url=dreamx_download),  # we download Link
-                                                    InlineKeyboardButton('🖥️ Watch online 🖥️', url=dreamx_stream)]])  # web stream Link
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('🅆🄰🅃🄲🄷 🄾🄽🄻🄸🄽🄴", url=dreamx_stream),  # web download Link
+                                                    InlineKeyboardButton('🄳🄾🅆🄽🄻🄾🄰🄳 🄵🄰🅂🅃', url=dreamx_download)]])  # web stream Link
             )
             dreamcinezone = await query.edit_message_reply_markup(
                 reply_markup=InlineKeyboardMarkup([
                     [
-                        InlineKeyboardButton("🚀 Download ", url=dreamx_download),
-                        InlineKeyboardButton('🖥️ Watch ', url=dreamx_stream)
+                        InlineKeyboardButton("👀 🅆🄰🅃🄲🄷 ", url=dreamx_stream),
+                        InlineKeyboardButton('🄳🄾🅆🄽🄻🄾🄰🄳 📥 ', url=dreamx_download)
                     ],
                     [
                         InlineKeyboardButton('📌 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ 📌', url=UPDATE_CHNL_LNK)
@@ -1892,7 +1892,7 @@ async def auto_filter(client, msg, spoll=False):
     else:
         message = msg.message.reply_to_message
         search, files, offset, total_results = spoll
-        m = await message.reply_text(f'**🔎 Gemini Searching** `{search}`', reply_to_message_id=message.id)
+        m = await message.reply_sticker("CAACAgUAAxkBAAEPefdo28OLYyEfa9orDdvv1_zXfFsfPwACCh4AAo8d4VaEvmbfFrg22zYE")
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
     key = f"{message.chat.id}-{message.id}"
