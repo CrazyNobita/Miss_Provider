@@ -191,7 +191,7 @@ async def next_page(bot, query):
                    [
                        
                        InlineKeyboardButton(
-                           "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+                           "♻ 🅂🄴🄽🄳 🄰🄻🄻 ♻", callback_data=f"sendfiles#{key}")
 
                    ]
                    )
@@ -209,7 +209,7 @@ async def next_page(bot, query):
                    ]
                    )
         btn.insert(0, [
-            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+            InlineKeyboardButton("♻ 🅂🄴🄽🄳 🄰🄻🄻 ♻", callback_data=f"sendfiles#{key}")
         ])
     try:
         if settings['max_btn']:
@@ -423,7 +423,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+                           "♻ 🅂🄴🄽🄳 🄰🄻🄻 ♻", callback_data=f"sendfiles#{key}")
                    ])
     else:
         btn = []
@@ -440,7 +440,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+                           "♻ 🅂🄴🄽🄳 🄰🄻🄻 ♻", callback_data=f"sendfiles#{key}")
 
                    ])
     if offset != "":
@@ -578,7 +578,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+                           "♻ 🅂🄴🄽🄳 🄰🄻🄻 ♻", callback_data=f"sendfiles#{key}")
                    ]
                    )
     else:
@@ -595,7 +595,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+                           "♻ 🅂🄴🄽🄳 🄰🄻🄻 ♻", callback_data=f"sendfiles#{key}")
                    ])
     if offset != "":
         try:
@@ -727,7 +727,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
     btn.insert(
         0,
         [
-            InlineKeyboardButton("Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}"),
+            InlineKeyboardButton("♻ 🅂🄴🄽🄳 🄰🄻🄻 ♻", callback_data=f"sendfiles#{key}"),
         ],
     )
     if n_offset != "":
@@ -1920,7 +1920,7 @@ async def auto_filter(client, msg, spoll=False):
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+                           "♻ 🅂🄴🄽🄳 🄰🄻🄻 ♻", callback_data=f"sendfiles#{key}")
 
                    ])
     else:
@@ -1938,7 +1938,7 @@ async def auto_filter(client, msg, spoll=False):
         btn.insert(0,
                    [
                        InlineKeyboardButton(
-                           "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
+                           "♻ 🅂🄴🄽🄳 🄰🄻🄻 ♻", callback_data=f"sendfiles#{key}")
                    ])
 
     if offset != "":
