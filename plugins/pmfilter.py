@@ -405,7 +405,7 @@ async def filter_qualities_cb_handler(client: Client, query: CallbackQuery):
     if settings.get('button'):
         btn = [
             [
-                InlineKeyboardButton(text=f"🔗 {get_size(file.file_size)} ≽ " + clean_filename(
+                InlineKeyboardButton(text=f" {get_size(file.file_size)} ≽ " + clean_filename(
                     file.file_name), callback_data=f'file#{file.file_id}'),
             ]
             for file in files
@@ -560,7 +560,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
     if settings.get('button'):
         btn = [
             [
-                InlineKeyboardButton(text=f"🔗 {get_size(file.file_size)} ≽ " + clean_filename(
+                InlineKeyboardButton(text=f"{get_size(file.file_size)} ≽ " + clean_filename(
                     file.file_name), callback_data=f'file#{file.file_id}'),
             ]
             for file in files
@@ -708,7 +708,7 @@ async def filter_seasons_cb_handler(client: Client, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        f"🔗 {get_size(f.file_size)} ≽ " +
+                        f" {get_size(f.file_size)} ≽ " +
                         clean_filename(f.file_name),
                         callback_data=f"file#{f.file_id}",
                     )
@@ -884,7 +884,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             btn += await is_subscribed(client, query.from_user.id, fsub_channels)
             btn += await is_req_subscribed(client, query.from_user.id, AUTH_REQ_CHANNELS)
             if btn:
-                btn.append([InlineKeyboardButton("♻️ ᴛʀʏ ᴀɢᴀɪɴ ♻️", callback_data=f"checksub#{kk}#{file_id}")])
+                btn.append([InlineKeyboardButton("♻️ Tap Are You Joined ♻️", callback_data=f"checksub#{kk}#{file_id}")])
                 try:
                     await query.edit_message_reply_markup(reply_markup=InlineKeyboardMarkup(btn))
                 except MessageNotModified:
@@ -1857,7 +1857,7 @@ async def auto_filter(client, msg, spoll=False):
         if len(message.text) < 100:
             search = message.text
             search = search.lower()
-            m = await message.reply_text(f'**🔎 sᴇᴀʀᴄʜɪɴɢ** `{search}`', reply_to_message_id=message.id)
+            m = await message.reply_text(f'**🔎 Chat GPT 🤖 Ai Is Searching** `{search}`', reply_to_message_id=message.id)
             find = search.split(" ")
             search = ""
             removes = ["in", "upload", "series", "full",
@@ -1875,10 +1875,10 @@ async def auto_filter(client, msg, spoll=False):
             settings = await get_settings(message.chat.id)
             if not files:
                 if settings["spell_check"]:
-                    ai_sts = await m.edit('🤖 ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ, ᴀɪ ɪꜱ ᴄʜᴇᴄᴋɪɴɢ ʏᴏᴜʀ ꜱᴘᴇʟʟɪɴɢ...')
+                    ai_sts = await m.edit('🤖 Chat GPT Searching Your Query Wait ...')
                     is_misspelled = await ai_spell_check(chat_id=message.chat.id, wrong_name=search)
                     if is_misspelled:
-                        await ai_sts.edit(f'✅ Aɪ Sᴜɢɢᴇsᴛᴇᴅ: <code>{is_misspelled}</code>\n🔍 Searching for it...')
+                        await ai_sts.edit(f'🦚 GPT Learning Suggested: <code>{is_misspelled}</code>\n🔍 So Searching For It...')
                         message.text = is_misspelled
                         await ai_sts.delete()
                         return await auto_filter(client, message)
@@ -1892,7 +1892,7 @@ async def auto_filter(client, msg, spoll=False):
     else:
         message = msg.message.reply_to_message
         search, files, offset, total_results = spoll
-        m = await message.reply_text(f'**🔎 sᴇᴀʀᴄʜɪɴɢ** `{search}`', reply_to_message_id=message.id)
+        m = await message.reply_text(f'**🔎 Gemini Searching** `{search}`', reply_to_message_id=message.id)
         settings = await get_settings(message.chat.id)
         await msg.message.delete()
     key = f"{message.chat.id}-{message.id}"
@@ -1902,7 +1902,7 @@ async def auto_filter(client, msg, spoll=False):
     if settings.get('button'):
         btn = [
             [
-                InlineKeyboardButton(text=f"🔗 {get_size(file.file_size)} ≽ " + clean_filename(
+                InlineKeyboardButton(text=f" {get_size(file.file_size)} ≽ " + clean_filename(
                     file.file_name), callback_data=f'file#{file.file_id}'),
             ]
             for file in files
@@ -1919,8 +1919,6 @@ async def auto_filter(client, msg, spoll=False):
                    )
         btn.insert(0,
                    [
-                       InlineKeyboardButton(
-                           "⚜️ 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
                        InlineKeyboardButton(
                            "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
 
@@ -1939,8 +1937,6 @@ async def auto_filter(client, msg, spoll=False):
                    )
         btn.insert(0,
                    [
-                       InlineKeyboardButton(
-                           "⚜️ 𝐑𝐞𝐦𝐨𝐯𝐞 𝐚𝐝𝐬 ⚜️", url=f"https://t.me/{temp.U_NAME}?start=premium"),
                        InlineKeyboardButton(
                            "Sᴇɴᴅ Aʟʟ", callback_data=f"sendfiles#{key}")
                    ])
