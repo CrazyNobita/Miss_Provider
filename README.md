@@ -1,16 +1,16 @@
-<h1 align="center"><b>🚩 ᴊᴀɪ ꜱʜʀɪ ʀᴀᴍ 🚩</b></h1>
+<h1 align="center"><b>🦚,Radha Radha 🦚</b></h1>
 
 <p align="center">
-  <img src="https://github.com/DreamXBotz/Pics/blob/main/dreamxbotz.jpg" alt="DreamxBotz Logo">
+  <img src="[https://graph.org/file/e6253dab7bf95abc521b1-c834bd1f3ff5cef253.jpg]" alt="DreamxBotz Logo">
 </p>
 
-<h1 align="center">𝓓𝓻𝓮𝓪𝓶𝔁𝓑𝓸𝓽𝔃</h1>
+<h1 align="center">MissProviderBot</h1>
 
 ---
 
 ## 👤 Owner
 
-[![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://t.me/Deendayal_Support_Group)
+[![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://t.me/NobitaBhaskar)
 
 ---
 
@@ -22,7 +22,7 @@
 
 Try the live bot here:
 
-[![Click Here](https://img.shields.io/badge/Demo%20Bot-Click%20Here-blue?style=flat&logo=telegram&labelColor=white)](https://t.me/Princess_V4_bot)
+[![Click Here](https://img.shields.io/badge/Demo%20Bot-Click%20Here-blue?style=flat&logo=telegram&labelColor=white)](https://t.me/MissProviderBot)
 
 ---
 
@@ -37,13 +37,8 @@ Try the live bot here:
 
 ## 🙏 Special Thanks To
 
-- 🌴 [⌯ Ꭺɴᴏɴʏᴍᴏᴜꜱ | ×͜× |](https://t.me/BeingXAnonymous)
-- 🌴 [⌯ ᴢɪsʜᴀɴ | ×͜× |](https://t.me/IM_JISSHU)
-- 🌴 [⌯ ʙʜᴀʀᴀᴛʜ | ×͜× |](https://t.me/Bharath_boy)
-- 🌴 [Harshal Purohit Edits](https://github.com/HarshalPurohitEdits)
-- 🌴 [Support Group](https://t.me/Deendayal_Support_Group)
+- 🌴 [˹ 𝚴 𝐎 𝐁 𝚰 𝐓 𝚲 ˼](https://t.me/NobitaBhaskar)
 
----
 
 ## 🛠 Need Help Deploying?
 
@@ -92,7 +87,7 @@ Join our support group for assistance:
 - ✅ Auto Delete Old Files  
 - ✅ …and more!
 
-📌 *To stay updated with all new features, join our [Updates Channel](https://t.me/dreamxbotz).*
+📌 *To stay updated with all new movies, join our [Updates Channel](https://t.me/MissProviderUpdate).*
 
 ---
 
@@ -132,10 +127,7 @@ restart             – Restart the bot
 
 ## ⚠️ Disclaimer
 
-This repository is intended **strictly for educational purposes only**.  
-The authors are **not responsible** for any misuse or abuse of this code.  
-Use at your own discretion and **always respect platform rules and copyrights**.
-
+This Repo Is For [MissProviderBot](https://t.me/MissProviderUpdate).* 's ✦ 
 ---
 
 ## 📜 License
@@ -144,4 +136,4 @@ This project is licensed under the [MIT License](https://github.com/MrRaazz/Drea
 
 ---
 
-<p align="center"><b>Jai Shree Krishna 🙏😉</b></p>
+<p align="center"><b>Radha Radha 🦚🦚</b></p>
