@@ -1,7 +1,7 @@
 <h1 align="center"><b>🦚,Radha Radha 🦚</b></h1>
 
 <p align="center">
-  <img src="" alt="DreamxBotz Logo">
+  <img src="" alt="">
 </p>
 
 <h1 align="center">MissProviderBot</h1>
