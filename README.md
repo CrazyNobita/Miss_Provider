@@ -1,7 +1,7 @@
 <h1 align="center"><b>🦚,Radha Radha 🦚</b></h1>
 
 <p align="center">
-  <img src="[https://graph.org/file/e6253dab7bf95abc521b1-c834bd1f3ff5cef253.jpg]" alt="DreamxBotz Logo">
+  <img src="https://graph.org/file/e6253dab7bf95abc521b1-c834bd1f3ff5cef253.jpg" alt="DreamxBotz Logo">
 </p>
 
 <h1 align="center">MissProviderBot</h1>
