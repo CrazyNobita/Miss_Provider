@@ -1457,7 +1457,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             fileName = {quote_plus(get_name(log_msg))}
             dreamx_stream = f"{URL}watch/{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
             dreamx_download = f"{URL}{str(log_msg.id)}/{quote_plus(get_name(log_msg))}?hash={get_hash(log_msg)}"
-            xo = await query.message.reply_text(f'👨‍💻')
+            xo = await query.message.reply_sticker("CAACAgUAAxkBAAEPesto3I6ynH0B0J_ViOXmKJhbflQD_AACux0AAjaN4Vbv6QvMlmc0RTYE")
             await asyncio.sleep(1)
             await xo.delete()
             await log_msg.reply_text(
