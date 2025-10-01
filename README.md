@@ -42,9 +42,9 @@ Try the live bot here:
 
 ## 🛠 Need Help Deploying?
 
-Join our support group for assistance:
+Join our support group if movie not found:
 
-[![Join Support Group](https://img.shields.io/badge/Join%20Support%20Group-Click%20Here-blue?style=flat&logo=telegram&labelColor=white)](https://t.me/Deendayal_Support_Group)
+[![Join Support Group](https://img.shields.io/badge/Join%20Support%20Group-Click%20Here-blue?style=flat&logo=telegram&labelColor=white)](https://t.me/MissProviderChat)
 
 ---
 
