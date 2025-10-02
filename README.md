@@ -1,4 +1,4 @@
-<h1 align="center"><b>🦚,Radha Radha 🦚</b></h1>
+<h1 align="center"><b>🦚Radha Radha 🦚</b></h1>
 
 <p align="center">
   <img src="" alt="">
