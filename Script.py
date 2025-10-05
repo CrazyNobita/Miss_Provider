@@ -1,12 +1,12 @@
 class script(object):
-    START_TXT = """<blockquote><u>🦚ʀᴀᴅʜᴀ ʀᴀᴅʜᴀ 🦚</u></blockquote>
+    START_TXT = """<blockquote><u>🦚ʀᴀᴅʜᴀ ʀᴀᴅʜᴀ🦚</u></blockquote>
 
 <b>ʜᴇʏ {}, {}</b>\n
 ☆ ɪ ᴀᴍ<a href=https://t.me/{}>{}</a>,ᴀ ᴀᴜᴛᴏғɪʟᴛᴇʀ ʙᴏᴛ ʕ˖͜͡˖ʔ ᴡɪᴛʜ ᴄʜᴀᴛ ɢᴘᴛ ᴀɴᴅ ɢᴏᴏɢʟᴇ ɢᴇᴍɪɴɪ ғᴏʀ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ᴍɪsᴛᴀᴋᴇs ☆\n
 ˹ ɢᴘᴛ ᴀɴᴅ ɢᴇᴍɪɴɪ ᴏɴʟʏ ɴᴏᴛ ғɪɴᴅ sᴘᴇʟʟɪɴɢ ᴍɪᴀsᴛᴀᴋᴇs ᴛʜᴇʏ ᴄᴏᴜʟᴅ ᴍᴜʟᴛɪᴘʟᴇ ᴛᴀsᴋ ʜᴇʀᴇ ᴀɴᴅ ᴘᴍ . ᴛᴏ ɢᴇᴛ  ᴀʟʟ ᴛᴀsᴋ ᴛᴀᴘ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ˼
 
 
-    GSTART_TXT = """<blockquote>🦚ʀᴀᴅʜᴀ ʀᴀᴅʜᴀ 🦚</blockquote>
+    GSTART_TXT = """<b>🦚ʀᴀᴅʜᴀ ʀᴀᴅʜᴀ🦚</b>
 
 <b>ʜᴇʏ {},</b>
 
