@@ -136,7 +136,7 @@ PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in envir
 # ============================
 MAX_B_TN = environ.get("MAX_B_TN", "10") # Maximum number of buttons in a row (default: 5)
 PORT = environ.get("PORT", "8080")  # Port for the web server (default: 8080)
-MSG_ALRT = environ.get('MSG_ALRT', 'Bot By ➻ @Miss_Provider') # Alert message for users
+MSG_ALRT = environ.get('MSG_ALRT', 'Bot By ➻ @MissProviderBhaskar') # Alert message for users
 DELETE_TIME = int(environ.get("DELETE_TIME", "180"))  #  deletion time in seconds (default: 5 minutes). Adjust as per your needs.
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")   # Custom caption for files
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION) # Custom caption for batch files
