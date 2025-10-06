@@ -6,7 +6,7 @@ class script(object):
 ˹ ɢᴘᴛ ᴀɴᴅ ɢᴇᴍɪɴɪ ᴏɴʟʏ ɴᴏᴛ ғɪɴᴅ sᴘᴇʟʟɪɴɢ ᴍɪᴀsᴛᴀᴋᴇs ᴛʜᴇʏ ᴄᴏᴜʟᴅ ᴍᴜʟᴛɪᴘʟᴇ ᴛᴀsᴋ ʜᴇʀᴇ ᴀɴᴅ ᴘᴍ . ᴛᴏ ɢᴇᴛ  ᴀʟʟ ᴛᴀsᴋ ᴛᴀᴘ ᴏɴ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴs ˼
 
 
-    GSTART_TXT = """<b>🦚ʀᴀᴅʜᴀ ʀᴀᴅʜᴀ🦚</b>
+    GSTART_TXT = """<b>ʀᴀᴅʜᴀ ʀᴀᴅʜᴀ</b>
 
 <b>ʜᴇʏ {},</b>
 
@@ -215,15 +215,15 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/dreamxbotz">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/dreamxbotz">[ ᴅʀᴇᴀᴍxʙᴏᴛᴢ ]</a></b>"""
+    CAPTION = """<blockquote><a href="https://t.me/MissProviderBot">{file_name}</a></b>\n\n<blockquote>
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
 </b><a href={poster_url}>📥</a><a href={imdb_url}>New {tag} Added</a></b>
 
-<blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename}</code>
+<blockquote>✨ ᴛɪᴛʟᴇ : <code>{filename}</code></blockquote>
 
-
+<blockquote>
 🎭 ɢᴇɴʀᴇs : <b>{genres}</b>
 📺 ᴏᴛᴛ        : <b>{ott}</b>
 🎞️ ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
@@ -233,7 +233,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 </blockquote>
 
 
-🔍 <b>Sᴇᴀʀᴄʜ →</b> {search_link}
+ <b>😎 Powered By</b> {search_link}
 """
 
 
@@ -277,7 +277,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 ◉ 60 ᴅᴀʏꜱ - 75 ₹  / 75 ꜱᴛᴀʀ
 
 •─────•─────────•─────•
-🏷️ <a href='https://t.me/dreamxbotz'>ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʀᴏᴏꜰ</a>
+🏷️ <a href='https://t.me/MissProviderChat'>ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ ᴘʀᴏᴏꜰ</a>
 
 ‼️ ᴍᴜꜱᴛ ꜱᴇɴᴅ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀꜰᴛᴇʀ ᴘᴀʏᴍᴇɴᴛ.
 ‼️ ᴀꜰᴛᴇʀ ꜱᴇɴᴅɪɴɢ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ɢɪᴠᴇ ᴜꜱ ꜱᴏᴍᴇᴛɪᴍᴇꜱ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴘʀᴇᴍɪᴜᴍ ʟɪꜱᴛ."""
@@ -286,7 +286,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
 ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ʙᴜʏ ᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ꜱᴇʀᴠɪᴄᴇ ᴜꜱɪɴɢ ᴛᴇʟᴇɢʀᴀᴍ ꜱᴛᴀʀꜱ.  
 
-ɪꜰ ʏᴏᴜ ꜰᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ, ᴛᴀᴋᴇ ᴀ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀɴᴅ ꜱᴇɴᴅ ɪᴛ ᴛᴏ - @deendayal_Support_group
+ɪꜰ ʏᴏᴜ ꜰᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ, ᴛᴀᴋᴇ ᴀ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ᴀɴᴅ ꜱᴇɴᴅ ɪᴛ ᴛᴏ - @MissProviderChat
 
 ꜱᴇʟᴇᴄᴛ ʏᴏᴜʀ ᴅᴇꜱɪʀᴇᴅ ᴀᴍᴏᴜɴᴛ ᴀɴᴅ ᴘᴜʀᴄʜᴀꜱᴇ ᴀ ꜱᴜʙꜱᴄʀɪᴘᴛɪᴏɴ 👇.</b>
 """
