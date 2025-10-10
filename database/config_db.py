@@ -6,8 +6,7 @@ class Database:
     def __init__(self, uri, db_name):
         self.client = AsyncIOMotorClient(uri)
         self.db = self.client[db_name]
-        self.col = self.db.user
-        self.config_col = self.db.configuration
+        
 
     async def update_top_messages(self, user_id, message_text):
         user = await self.col.find_one({"user_id": user_id, "messages.text": message_text})
