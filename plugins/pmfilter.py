@@ -1577,12 +1577,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('‼️ Disclaimer ‼️', callback_data='disclaimer'),
-            InlineKeyboardButton ('Developer', callback_data='source'),
+            InlineKeyboardButton('✦ ɢᴘᴛ', callback_data='donation'),
+            InlineKeyboardButton ('ɢᴇᴍɪɴɪ ✦', callback_data='source'),
         ],[
-            InlineKeyboardButton('ᴅᴏɴᴀᴛɪᴏɴ 💰', callback_data='donation'), 
+            InlineKeyboardButton('⚒ ᴅɪsᴄʟᴀɪᴍᴇʀ ⚒', callback_data='disclaimer'), 
         ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ ⇋', callback_data='start')
+            InlineKeyboardButton('⇦ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1629,7 +1629,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "source":
         buttons = [[
             InlineKeyboardButton('˹ 𝚴 𝐎 𝐁 𝚰 𝐓 𝚲 ˼', url='https://telegram.dog/NobtaBhaskar'),
-            InlineKeyboardButton('➻ Back', callback_data='about')
+            InlineKeyboardButton('⇦ Back', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
