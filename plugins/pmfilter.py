@@ -171,7 +171,7 @@ async def next_page(bot, query):
     if settings.get('button'):
         btn = [
             [
-                InlineKeyboardButton(text=f"🔗 {get_size(file.file_size)} ≽ " + clean_filename(
+                InlineKeyboardButton(text=f"{get_size(file.file_size)} ≽ " + clean_filename(
                     file.file_name), callback_data=f'file#{file.file_id}'),
             ]
             for file in files
@@ -329,7 +329,7 @@ async def advantage_spoll_choker(bot, query):
             except Exception as e:
                 print(f"Error In Spol - {e}   Make Sure Bot Admin BIN CHANNEL")
         btn = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🔰Cʟɪᴄᴋ ʜᴇʀᴇ & ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴍɪɴ🔰", url=OWNER_LNK)]])
+            [[InlineKeyboardButton("🧣 Cʟɪᴄᴋ ʜᴇʀᴇ & ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴀᴅᴍɪɴ 🧣", url=OWNER_LNK)]])
         k = await query.message.edit(script.MVE_NT_FND, reply_markup=btn)
         await asyncio.sleep(10)
         await k.delete()
@@ -1117,10 +1117,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ], [
             InlineKeyboardButton("📌 Not Released 📌",
                                  callback_data=f"Not_Released#{from_user}"),
-            InlineKeyboardButton("♨️Type Correct Spelling♨️",
+            InlineKeyboardButton("✍️ Type Correct Spelling✍️",
                                  callback_data=f"Type_Correct_Spelling#{from_user}")
         ], [
-            InlineKeyboardButton("⚜️ Not Available In The Hindi ⚜️",
+            InlineKeyboardButton("🤧 Not Available In Your Requested Language",
                                  callback_data=f"Not_Available_In_The_Hindi#{from_user}")
         ]]
         btn2 = [[
@@ -1208,7 +1208,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data.startswith("Type_Correct_Spelling"):
         ident, from_user = query.data.split("#")
         btn = [[
-            InlineKeyboardButton("♨️ Type Correct Spelling ♨️",
+            InlineKeyboardButton("✍️ Type Correct Spelling✍️",
                                  callback_data=f"wsalert#{from_user}")
         ]]
         btn2 = [[
@@ -1251,7 +1251,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ident, from_user = query.data.split("#")
         btn = [[
             InlineKeyboardButton(
-                "⚜️ Not Available In The Hindi ⚜️", callback_data=f"hnalert#{from_user}")
+                "🤧 Not Available In Your Requested Language", callback_data=f"hnalert#{from_user}")
         ]]
         btn2 = [[
             InlineKeyboardButton('ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ', url=link.invite_link),
