@@ -214,7 +214,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
-</b><a href={poster_url}>📥</a><a href={imdb_url}></b>
+</b><a href={poster_url}></a><a href={imdb_url}></b>
 
 <blockquote>🌿 Name : <code>{filename}</code></blockquote>
 
