@@ -210,7 +210,7 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<blockquote><a href="https://t.me/MissProviderBot">{file_name}</a></b>\n\n<blockquote>"""
+    CAPTION = """<blockquote>{file_name}</blockquote>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
