@@ -218,7 +218,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 <blockquote>🌿 Name : <code>{filename}</code></blockquote>
 
 
-<blockquote>🎭 ɢᴇɴʀᴇs : <b>{genres}</b>
+<blockquote expandable>🎭 ɢᴇɴʀᴇs : <b>{genres}</b>
 📺 ᴏᴛᴛ        : <b>{ott}</b>
 🎞️ ǫᴜᴀʟɪᴛʏ : <b>{quality}</b>
 🎧 ᴀᴜᴅɪᴏ    : <b>{language}</b>
