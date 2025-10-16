@@ -4,10 +4,6 @@
   <img src="" alt="">
 </p>
 
-<h1 align="center">MissProviderBot</h1>
-
----
-
 ## 👤 Owner
 
 [![Contact Developer](https://img.shields.io/static/v1?label=Contact+Developer&message=On+Telegram&color=critical)](https://t.me/NobitaBhaskar)
