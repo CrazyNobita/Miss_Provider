@@ -1594,7 +1594,27 @@ async def cb_handler(client: Client, query: CallbackQuery):
             disable_web_page_preview=True,
             parse_mode=enums.ParseMode.HTML
         )
-
+    elif query.data == "group":
+        buttons = [[
+                InlineKeyboardButton('Miss Provider Request', url=f'https://t.me/MissProviderRequest')
+            ],[
+                InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='home')
+            ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(text="● ◌ ◌")
+        await query.message.edit_text(text="● ● ◌")
+        await query.message.edit_text(text="● ● ●")
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto('https://graph.org/file/99eebf5dbe8a134f548e0.jpg')
+        )
+        await query.message.edit_text(
+            text=script.DREAMXBOTZ_DONATION.format(query.from_user.mention, QR_CODE, OWNER_UPI_ID),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
     elif query.data == "give_trial":
         try:
             user_id = query.from_user.id
