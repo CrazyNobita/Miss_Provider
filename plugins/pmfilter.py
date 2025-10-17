@@ -1601,17 +1601,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='home')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(text="● ◌ ◌")
-        await query.message.edit_text(text="● ● ◌")
-        await query.message.edit_text(text="● ● ●")
+        await query.message.edit_text(text="▰▱▱")
+        await query.message.edit_text(text="▰▰▱")
+        await query.message.edit_text(text="▰▰▰")
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto('https://graph.org/file/99eebf5dbe8a134f548e0.jpg')
+            InputMediaPhoto('')
         )
         await query.message.edit_text(
-            text=script.DREAMXBOTZ_DONATION.format(query.from_user.mention, QR_CODE, OWNER_UPI_ID),
+            text=script.PROVIDER_TXT.format(query.from_user.mention, QR_CODE, OWNER_UPI_ID),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
