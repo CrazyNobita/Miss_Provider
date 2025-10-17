@@ -358,7 +358,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 ○ ᴍᴜʟᴛɪ-ᴘʟᴀʏᴇʀ sᴛʀᴇᴀᴍɪɴɢ ʟɪɴᴋs
 ○ ᴀᴅ-ғʀᴇᴇ ᴇxᴘᴇʀɪᴇɴᴄᴇ
 
-👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ <a href='https://t.me/dreamxbotz'>Owner</a> ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴛʀɪᴀʟ.
+👨‍💻 ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ <a href='https://t.me/MissProviderBhaskar'>Owner</a> ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴛʀɪᴀʟ.
 
 ➛ ᴜꜱᴇ /plan ᴛᴏ ꜱᴇᴇ ᴀʟʟ ᴏᴜʀ ᴘʟᴀɴꜱ ᴀᴛ ᴏɴᴄᴇ.
 ➛ ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴀᴄᴛɪᴠᴇ ᴘʟᴀɴ ʙʏ ᴜꜱɪɴɢ : /myplan</b>"""
@@ -385,6 +385,8 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 <blockquote>𝐈𝐌𝐃𝐁 𝐒𝐞𝐚𝐫𝐜𝐡</blockquote>
 ᴛᴏ sᴇᴀʀᴄʜ ғʀᴏᴍ ɪᴍᴅʙ ᴊᴜsᴛ sᴇɴᴅ /sᴇᴀʀᴄʜ [ᴍᴏᴠɪᴇ ɴᴀᴍᴇ ᴇɢ.ᴋɢғ ᴄʜᴀᴘᴛᴇʀ 𝟷]\n
 <blockquote>▄︻デᴀɴᴅ ɢᴏᴏɢʟᴇ ɢᴇᴍɪɴɪ sᴏʟᴠᴇ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ᴍɪsᴛᴀᴋᴇs .══━一</blockquote>"""
+    
+    PROVIDER_TXT ="""Here Is My All Groups Join One For Request."""
 
     SETTING_TXT = """    
 <u>ꜱᴇᴛᴛɪɴɢꜱ</u> :
