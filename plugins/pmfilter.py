@@ -1612,7 +1612,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto('https://graph.org/file/ff59c6b8e2a07cbc322ff-23c7972c9e8373b26d.jpg')
         )
         await query.message.edit_text(
-            text=script.PROVIDER_TXT
+            text=script.PROVIDER_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
