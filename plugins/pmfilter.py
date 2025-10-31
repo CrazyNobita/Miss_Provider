@@ -1599,7 +1599,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                 InlineKeyboardButton('Miss Provider Request', url=f'https://t.me/MissProviderRequest')
             ],[
-                InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='home')
+                InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='start')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(text="▰▱▱")
@@ -1609,10 +1609,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto('')
+            InputMediaPhoto('https://graph.org/file/ff59c6b8e2a07cbc322ff-23c7972c9e8373b26d.jpg')
         )
         await query.message.edit_text(
-            text=script.PROVIDER_TXT.format(query.from_user.mention, QR_CODE, OWNER_UPI_ID),
+            text=script.PROVIDER_TXT
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
