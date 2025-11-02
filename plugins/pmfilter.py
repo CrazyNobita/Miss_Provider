@@ -1618,6 +1618,29 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+    elif query.data == "channel":
+        buttons = [[
+                InlineKeyboardButton('˹ ᴍɪss ᴘʀᴏᴠɪᴅᴇʀ ᴜᴘᴅᴀᴛᴇ ˼', url=f'https://t.me/MissProviderUpdate')
+            ],[ 
+                InlineKeyboardButton('˹ ᴇᴠᴇʀɢʀᴇᴇɴ ʜᴜʙ ˼', url=f'https://t.me/EvergreenHubOfficial')
+            ],[
+                InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='start')
+            ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(text="● ○ ○")
+        await query.message.edit_text(text="● ● ○")
+        await query.message.edit_text(text="● ● ●")
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto('https://graph.org/file/ec91840a9d1ce436bbe9d-33a4ce14cae29c68d2.jpg')
+        )
+        await query.message.edit_text(
+            text=script.PROVIDER_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
     elif query.data == "give_trial":
         try:
             user_id = query.from_user.id
