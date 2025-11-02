@@ -1597,7 +1597,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "group":
         buttons = [[
-                InlineKeyboardButton('Miss Provider Request', url=f'https://t.me/MissProviderRequest')
+                InlineKeyboardButton('⚝ ᴍɪss ᴘʀᴏᴠɪᴅᴇʀ ʀᴇǫᴜᴇsᴛ ⚝', url=f'https://t.me/MissProviderRequest')
+            ],[ 
+                InlineKeyboardButton('⌜ ᴍɪss ᴘʀᴏᴠɪᴅᴇʀ sᴜᴘᴘᴏʀᴛ ⌟', url=f'https://t.me/MissProviderChat')
             ],[
                 InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='start')
             ]]
@@ -1609,7 +1611,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
-            InputMediaPhoto('https://graph.org/file/ff59c6b8e2a07cbc322ff-23c7972c9e8373b26d.jpg')
+            InputMediaPhoto('https://graph.org/file/ec91840a9d1ce436bbe9d-33a4ce14cae29c68d2.jpg')
         )
         await query.message.edit_text(
             text=script.PROVIDER_TXT,
