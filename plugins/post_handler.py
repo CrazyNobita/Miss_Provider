@@ -20,7 +20,7 @@ post_sessions = {}
 
 BOT_NAME = temp.U_NAME
 USE_GETFILE_BUTTON_BY_DEFAULT = True
-DEFAULT_WATERMARK = "Join [Filmztube](https://t.me/Filmztube)"
+DEFAULT_WATERMARK = "🅙︎🅞︎🅘︎🅝︎  [🅜︎🅘︎🅢︎🅢︎ 🅟︎🅡︎🅞︎🅥︎🅘︎🅓︎🅔︎🅡︎](https://t.me/MISSPROVIDERREQUEST)"
 LANGUAGES_FORMAT = "➥ <b>Languages :</b> <code>{langs}</code>"
 RESOLUTIONS_FORMAT = "\n➥ <b>Qualities :</b> <code>{resolutions}</code>"
 OTT_FORMAT = "\n➥ <b>Available on :</b> <code>{otts}</code>"
@@ -629,5 +629,6 @@ async def finalize_and_post(client: Client, query: CallbackQuery, session_id: in
         await status_msg.edit(error_text)
         logger.error(
             f"An unexpected error occurred while posting '{session['movie_name']}':", exc_info=True)
+
 
 #code is created by @bharath_boy for public use so atleast don't remove credits
