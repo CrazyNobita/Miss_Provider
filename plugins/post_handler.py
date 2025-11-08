@@ -176,8 +176,7 @@ async def start_post_session(client: Client, message: Message, user_id: int, mov
         year = movie_details.get("year", "")
         movie_year = f"{title} {year}".strip()
         movie_year = re.sub(r"[ *:\.]", "-", movie_year)
-        url = f"https://t.me/
-        ?start=getfile-{movie_year}"
+        url = f"https://t.me/missproviderbot?start=getfile-{movie_year}"
         post_sessions[user_id]["buttons"].append(
             [InlineKeyboardButton("📥 Get Files 📥", url=url)])
         logger.info(f"Default 'Get Files' button added for session {user_id}")
@@ -631,5 +630,6 @@ async def finalize_and_post(client: Client, query: CallbackQuery, session_id: in
         await status_msg.edit(error_text)
         logger.error(
             f"An unexpected error occurred while posting '{session['movie_name']}':", exc_info=True)
+
 
 
