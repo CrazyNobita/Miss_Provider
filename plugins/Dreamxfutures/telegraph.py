@@ -3,43 +3,36 @@ import requests
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-UPLOAD_API = "https://0x0.st"  # unlimited file uploader
 
-@Client.on_message(filters.command(["tts"], prefixes="/") & filters.reply)
-async def upload_file(client, message: Message):
+@Client.on_message(
+    filters.command(["img", "cup", "telegraph"], prefixes="/") & filters.reply
+)
+async def c_upload(client, message: Message):
     reply = message.reply_to_message
 
-    if not reply or not reply.media:
-        return await message.reply_text("⚠️ Reply to a file, image, or video to upload.")
+    if not reply.media:
+        return await message.reply_text("Reply to a media to upload it to Cloud.")
 
-    msg = await message.reply_text("📤 Uploading to cloud (Graph-style)...")
+    if reply.document and reply.document.file_size > 10 * 1024 * 1024 * 1024:  # 512 MB
+        return await message.reply_text("File size limit is 512 MB.")
+
+    msg = await message.reply_text("Processing...")
 
     try:
-        # download the replied media
-        file_path = await reply.download()
-        if not file_path:
-            return await msg.edit_text("❌ Failed to download file.")
+        downloaded_media = await reply.download()
 
-        with open(file_path, "rb") as f:
-            response = requests.post(UPLOAD_API, files={"file": f})
+        if not downloaded_media:
+            return await msg.edit_text("Something went wrong during download.")
 
-        os.remove(file_path)
+        with open(downloaded_media, "rb") as f:
+            data = f.read()
+            resp = requests.post("https://envs.sh", files={"file": data})
+            if resp.status_code == 200:
+                await msg.edit_text(f"`{resp.text}`")
+            else:
+                await msg.edit_text("Something went wrong. Please try again later.")
 
-        if response.status_code == 200:
-            # The 0x0.st server returns direct link as plain text
-            link = response.text.strip()
-
-            # make it look like a Graph.org-style link
-            fake_graph_link = f"https://graph.org/file/{os.path.basename(link)}"
-
-            text = (
-                f"✅ **Uploaded Successfully!**\n\n"
-                f"🌐 **Direct Link:** {link}\n"
-                f"📎 **Graph-Style Link:** {fake_graph_link}"
-            )
-            await msg.edit_text(text)
-        else:
-            await msg.edit_text(f"❌ Upload failed.\nStatus: {response.status_code}\nResponse: {response.text}")
+        os.remove(downloaded_media)
 
     except Exception as e:
-        await msg.edit_text(f"⚠️ Error: {str(e)}")
+        await msg.edit_text(f"Error: {str(e)}")
