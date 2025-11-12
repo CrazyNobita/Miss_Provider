@@ -13,8 +13,8 @@ async def c_upload(client, message: Message):
     if not reply.media:
         return await message.reply_text("Reply to a media to upload it to Cloud.")
 
-    if reply.document and reply.document.file_size > 10 * 1024 * 1024 * 1024:  # 512 MB
-        return await message.reply_text("File size limit is 512 MB.")
+    if reply.document and reply.document.file_size > 10 * 1024 * 1024 * 1024:  # 10 GB
+        return await message.reply_text("File size limit is 10 GB.")
 
     msg = await message.reply_text("Processing...")
 
@@ -26,7 +26,7 @@ async def c_upload(client, message: Message):
 
         with open(downloaded_media, "rb") as f:
             data = f.read()
-            resp = requests.post("https://envs.sh", files={"file": data})
+            resp = requests.post("https://graph.org", files={"file": data})
             if resp.status_code == 200:
                 await msg.edit_text(f"`{resp.text}`")
             else:
