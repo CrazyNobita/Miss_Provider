@@ -106,7 +106,7 @@ async def pm_text(bot, message):
                                    text=(
                                        f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\n"
                                        f"👤 Nᴀᴍᴇ : {user}\n"
-                                       f"🆔 ID : {user_id}\n"
+                                       f"🆔 ID : {user_id} Link : ➲User 𝖫𝗂𝗇𝗄:</b> <a href='tg://user?id={from_user.id}'><b>Click Here</b></a>\n"
                                        f"💬 Mᴇssᴀɢᴇ : {content}</b>"
                                    )
                                    )
