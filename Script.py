@@ -124,6 +124,7 @@ Aᴅᴅᴇᴅ Bʏ - {}
     
 Iᴅ - <code>{}</code>
 Nᴀᴍᴇ - {}
+User 𝖫𝗂𝗇𝗄 - </b> <a href='tg://user?id={from_user.id}'><b>Click Here</b></a>\n"
 """
     NT_ADMIN_ALRT_TXT = """‼️ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴅᴍɪɴ ɪɴ ᴛʜɪꜱ ɢʀᴏᴜᴘ ‼️"""
 
