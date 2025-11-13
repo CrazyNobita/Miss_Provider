@@ -16,7 +16,7 @@ async def c_upload(client, message: Message):
     if reply.document and reply.document.file_size > 512 * 1024 * 1024:  # 512 MB
         return await message.reply_text("File size limit is 512 MB.")
 
-    msg = await message.reply_sticker("CAACAgUAAxkBAAEPw05pFU6pE2EYpDNz5uoOho2VHqOjlwACPx8AAovM2Vb7KWZG5mQTVjYE")
+    msg = await message.reply_text("Ruk Na.Thodi Der Loude")
 
     try:
         downloaded_media = await reply.download()
