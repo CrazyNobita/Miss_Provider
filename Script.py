@@ -7,18 +7,11 @@ class script(object):
 """
 
 
-    GSTART_TXT = """⎊────☵ ᴡᴇʟᴄᴏᴍᴇ ☵────⎊
+    GSTART_TXT = """<blockquote><u>🦚 ʀᴀᴅʜᴀ ʀᴀᴅʜᴀ 🦚</u></blockquote>
 
-▬▭▬▭▬▭▬▭▬▭▬▭▬▭
+<b>ʜᴇʏ {},</b>
 
-☉ ɴᴀᴍᴇ ⧽ ˹ {user} ˼
-☉ ɪᴅ ⧽ {user_id}
-☉ ᴜsᴇʀ ɴᴀᴍᴇ ⧽ {username}
-☉ ɢʀᴏᴜᴘ ɴᴀᴍᴇ ⧽ {chat.title}
-
-▬▭▬▭▬▭▬▭▬▭▬▭▬▭
-
-⎉────▢✭ 侖 ✭▢────⎉"""
+<b>🤖 ɪ ᴀᴍ <a href=https://t.me/{}>{}</a>, ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ꜰɪʟᴛᴇʀ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ.</b>"""
 
     
     HELP_TXT = """⦿━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━⦿
@@ -124,7 +117,7 @@ Aᴅᴅᴇᴅ Bʏ - {}
     
 Iᴅ - <code>{}</code>
 Nᴀᴍᴇ - {}
-User 𝖫𝗂𝗇𝗄 - </b> <a href='tg://user?id={from_user.id}'><b>Click Here</b></a>\n"
+User 𝖫𝗂𝗇𝗄 - <a href='tg://user?id={from_user.id}'><b>Click Here</b></a>\n"
 """
     NT_ADMIN_ALRT_TXT = """‼️ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴀᴅᴍɪɴ ɪɴ ᴛʜɪꜱ ɢʀᴏᴜᴘ ‼️"""
 
@@ -183,7 +176,18 @@ User 𝖫𝗂𝗇𝗄 - </b> <a href='tg://user?id={from_user.id}'><b>Click Here
     
     TOP_ALRT_MSG = """ꜱᴇᴀʀᴄʜɪɴɢ ꜰᴏʀ ǫᴜᴇʀʏ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ..."""
 
-    MELCOW_ENG = """<b>👋 ʜᴇʏ {},\n\n🍁 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ\n🌟 {} \n\n🔍 ʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ꜱᴇᴀʀᴄʜ ʏᴏᴜʀ ꜰᴀᴠᴏᴜʀɪᴛᴇ ᴍᴏᴠɪᴇꜱ ᴏʀ ꜱᴇʀɪᴇꜱ ʙʏ ᴊᴜꜱᴛ ᴛʏᴘɪɴɢ ɪᴛ'ꜱ ɴᴀᴍᴇ 🔎\n\n⚠️ ɪꜰ ʏᴏᴜ'ʀᴇ ʜᴀᴠɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʀᴇɢᴀʀᴅɪɴɢ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴏʀ ꜱᴏᴍᴇᴛʜɪɴɢ ᴇʟꜱᴇ ᴛʜᴇɴ ᴍᴇꜱꜱᴀɢᴇ ʜᴇʀᴇ 👇</b>"""
+    MELCOW_ENG = """⎊────☵ ᴡᴇʟᴄᴏᴍᴇ ☵────⎊
+
+<blockquote>▬▭▬▭▬▭▬▭▬▭▬▭▬▭
+
+☉ ɴᴀᴍᴇ ⧽ ˹ {user} ˼
+☉ ɪᴅ ⧽ {user_id}
+☉ ᴜsᴇʀ ɴᴀᴍᴇ ⧽ {username}
+☉ ɢʀᴏᴜᴘ ɴᴀᴍᴇ ⧽ {chat.title}
+☉ ʏᴏᴜʀ ʟɪɴᴋ ⧽ <a href='tg://user?id={from_user.id}'><b>Click Here</b></a>\n"
+▬▭▬▭▬▭▬▭▬▭▬▭▬▭</blockquote>
+
+⎉────▢✭ 侖 ✭▢────⎉"""
     
     DISCLAIMER_TXT = """
 <blockquote> ▄︻デ𝐃𝐢𝐬𝐜𝐥𝐚𝐢𝐦𝐞𝐫══━一</blockquote>
