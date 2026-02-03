@@ -120,8 +120,8 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/MissProviderRequest') # Group link for the bot
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/MissProviderBhaskar') # Owner link for the bot
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ProviderRequest') # Group link for the bot
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/LazyProvider') # Owner link for the bot
 UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/MissProviderUpdate') # Update channel link for the bot
 
 # ============================
@@ -136,7 +136,7 @@ PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in envir
 # ============================
 MAX_B_TN = environ.get("MAX_B_TN", "10") # Maximum number of buttons in a row (default: 5)
 PORT = environ.get("PORT", "8080")  # Port for the web server (default: 8080)
-MSG_ALRT = environ.get('MSG_ALRT', 'Bot By ➻ @ProviderBhaskar') # Alert message for users
+MSG_ALRT = environ.get('MSG_ALRT', 'Enjoy Using Our Premium Free Bot') # Alert message for users
 DELETE_TIME = int(environ.get("DELETE_TIME", "180"))  #  deletion time in seconds (default: 5 minutes). Adjust as per your needs.
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")   # Custom caption for files
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION) # Custom caption for batch files
