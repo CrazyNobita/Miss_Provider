@@ -23,7 +23,7 @@ BTN_URL_REGEX = re.compile(
 )
 
 
-imdb = Cinemagoer(accessSystem="http")
+imdb = Cinemagoer()
 BANNED = {}
 SMART_OPEN = '“'
 SMART_CLOSE = '”'
